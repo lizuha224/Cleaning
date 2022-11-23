@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #fff;  
+}
+
+.top{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.text_top{
+
+    color: #202020;
+    padding-top: 20px;
+}  
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    padding-top: 13px;
+    padding-right: 32px;
+}
