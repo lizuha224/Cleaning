@@ -1,40 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Cleaning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rostov Clean</title>
 </head>
 <body>
-    <header class="header container">
-        <div class="top">
-            <div class="icons">
-                <img src="img/telegram(3).svg" alt="telegram" class="icons_s">
-                <img src="img/whatsapp(3).svg" alt="whatsapp" class="icons_s">
-                <img src="img/vk(2).svg" alt="vk" class="icons_s">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-content-icons">
+                    <img src="./img/telegram(3).svg" alt="telegramm" class="header-content-icons__tg">
+                    <img src="./img/whatsapp(3).svg" alt="whatsapp" class="header-content-icons__wats">
+                    <img src="./img/vk(2).svg" alt="vk" class="header-content-icons__vk">
+                </div>
+                <div class="header-content-info">
+                    <p class="header-content-info__adress">г. Ростов-на-Дону, ул. Портовая, д. 393</p>
+                    <span class="header-content-info__email">info@cliningrnd.ru</span>
+                </div>
             </div>
-            <div class="text">
-            <p class="text_top">г. Ростов-на-Дону, ул. Портовая, д. 393</p>
-            <p class="text_top">info@cliningrnd.ru</p>
         </div>
-        </div>
-
-        <nav class="nav">
-            <a href="#">
-                    <img class="logo" src="./img/image 2.svg" alt="LOGO">
-                </a>
-            <div class="navigation">
-                <a class="item_nav" href="#">Главная</a>
-                <a class="item_nav" href="#">Услуги</a>
-                <a class="item_nav" href="#">Калькулятор стоимости</a> 
-                <a class="item_nav" href="#">О компании</a>
-                <a class="item_nav" href="#">Контакты</a>
+    </header>
+    <main>
+        <section class="header-bottom">
+            <div class="container">
+                <div class="header-bottom-elements">
+                    <img src="./img/logo.svg" alt="" class="header-bottom-logo">
+                <div class="header-bottom-content">
+                    <a href="#" class="header-bottom-content__link">Главная</a>
+                    <a href="#" class="header-bottom-content__link">Услуги</a>
+                    <a href="#" class="header-bottom-content__link">Какулькулятор стоимости</a>
+                    <a href="#" class="header-bottom-content__link">О компании</a>
+                    <a href="#" class="header-bottom-content__link">Контакты</a>
+                    <a href="#" class="header-bottom-content__tel">+7 (918) 565-75-36</a>
+                </div>
+                </div>
             </div>
-            <a href="tel:+7(918)565-75-36" class="header__tel">+7(918)565-75-36</a>
-        </nav>
-</header>
-    
+        </section>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-content-text">
+                        <h2 class="hero-content-text__heading">Лучший клинговый сервис</h2>
+                        <h1 class="hero-content-text__title">Клининговая компания
+                            Лучшие услуги</h1>
+                        <p class="hero-content-text__desc">Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту.</p>
+                        <button class="hero-content-text__button">Заказать уборку</button>
+                    </div>
+                    <img src="./img/group.png" alt="group-img" class="hero-content__img">
+                </div>
+            </div>
+        </section>
+        <section class="service">
+            <div class="container">
+                <div class="service-heading">
+                    <p class="service-heading__text">Услуги</p>
+                    <h2 class="service-heading__title">Наши услуги</h2>
+                </div>
+                <div class="service-card">
+                    <div class="service-card-content">
+                        <img src="./img/card1.png" alt="card" class="service-card-content__img">
+                        <div class="service-card-content-bottom">
+                            <img src="./img/home.png" alt="home" class="service-card-content-bottom__img">
+                            <h2 class="service-card-content-bottom__title">Уборка квартир</h2>
+                            <div class="service-bottom">
+                                <p class="service-card-content-bottom__text service-card-content-bottom__text--one">Профессиональная уборка квартир</p>
+                                <p class="service-card-content-bottom__text  service-card-content-bottom__text--two">Генеральная уборка квартиры</p>
+                                <p class="service-card-content-bottom__text service-card-content-bottom__text--three">Уборка квартиры после ремонта</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <img src="./img/card2.png" alt="card" class="service-card-content__img">
+                        <div class="service-card-content-bottom">
+                            <img src="./img/home2.png" alt="home" class="service-card-content-bottom__img">
+                            <h2 class="service-card-content-bottom__title">Уборка коттеджей</h2>
+                            <div class="service-bottom">
+                                <p class="service-card-content-bottom__text">Профессиональная уборка офисов</p>
+                                <p class="service-card-content-bottom__text">Генеральная уборка офисов</p>
+                                <p class="service-card-content-bottom__text">Уборка офисов после ремонта</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <img src="./img/card3.png" alt="card" class="service-card-content__img">
+                        <div class="service-card-content-bottom">
+                            <img src="./img/comp.png" alt="home" class="service-card-content-bottom__img">
+                            <h2 class="service-card-content-bottom__title">Уборка офисов</h2>
+                            <div class="service-bottom">
+                                <p class="service-card-content-bottom__text">Профессиональная уборка квартир</p>
+                                <p class="service-card-content-bottom__text">Генеральная уборка квартиры</p>
+                                <p class="service-card-content-bottom__text">Уборка квартиры после ремонта</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <img src="./img/card4.png" alt="card" class="service-card-content__img">
+                        <div class="service-card-content-bottom">
+                            <img src="./img/trash.png" alt="home" class="service-card-content-bottom__img">
+                            <h2 class="service-card-content-bottom__title">Химчистка</h2>
+                            <div class="service-bottom">
+                                <p class="service-card-content-bottom__text">Химчистка ковров на дому</p>
+                                <p class="service-card-content-bottom__text">Химчистка ковров с вывозом в цех</p>
+                                <p class="service-card-content-bottom__text">Химчистка мягкой мебели</p>
+                                <p class="service-card-content-bottom__text">Химчистка матрасов на дому</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <img src="./img/card5.png" alt="card" class="service-card-content__img">
+                        <div class="service-card-content-bottom">
+                            <img src="./img/bass.png" alt="home" class="service-card-content-bottom__img">
+                            <h2 class="service-card-content-bottom__title">Чистка бассейнов</h2>
+                            <div class="service-bottom">
+                                <p class="service-card-content-bottom__text">Профессиональная чистка бассейнов</p>
+                                <p class="service-card-content-bottom__text">Чистка душевых кабин</p>
+                                <p class="service-card-content-bottom__text">Чистка сауны, хамам, бани</p>
+                                <p class="service-card-content-bottom__text">Экологическая уборка</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <img src="./img/card6.png" alt="card" class="service-card-content__img">
+                        <div class="service-card-content-bottom">
+                            <img src="./img/air.png" alt="home" class="service-card-content-bottom__img">
+                            <h2 class="service-card-content-bottom__title">Мойка фасадов</h2>
+                            <div class="service-bottom">
+                                <p class="service-card-content-bottom__text service-card-content-bottom__text--one">Чистка кондиционеров</p>
+                                <p class="service-card-content-bottom__text  service-card-content-bottom__text--two">Озонирование и Дезинфекция</p>
+                                <p class="service-card-content-bottom__text service-card-content-bottom__text--three">Размывка пола после ремонта</p>
+                                <p class="service-card-content-bottom__text service-card-content-bottom__text--three">Мытье окон, витрин, фасадов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+            <div class="container">
+                <div class="work-content">
+                    <div class="work-content-heading">
+                        <p class="work-content-heading__text">Работа</p>
+                        <h2 class="work-content-heading__title">Наши работы</h2>
+                        <h3 class="work-content-heading__bottom">Уборка после ремонта в трехкомнатной квартире</h3>
+                        <p class="work-content-heading__desc work-content-heading__desc--one">Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту. Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту.</p>
+                        <p class="work-content-heading__desc work-content-heading__desc--two">Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту.Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту.</p>
+                        <p class="work-content-heading__desc work-content-heading__desc--three">Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту..</p>
+                        <div class="work-content-heading-arrow">
+                            <img src="./img/left.svg" alt="left" class="work-content-heading-arrow-left">
+                            <img src="./img/right.svg" alt="right" class="work-content-heading-arrow-right">
+                        </div>
+                    </div>
+                    <img src="./img/work.png" alt="work-section" class="work-content__image">
+                </div>
+            </div>
+        </section>
+        <section class="workstep">
+            <div class="container">
+                <div class="workstep-heading">
+                    <p class="workstep-heading__text">Работа</p>
+                    <h2 class="workstep-heading__title">Как мы работаем</h2>
+                </div>
+                <div class="workstep-content">
+                    <div class="workstep-content-items">
+                        <img src="./img/workstep1.png" alt="messsage" class="workstep-content-items__img">
+                        <h3 class="workstep-content-items__title workstep-content-items__title--one">Легкое заполнение заявки</h3>
+                        <p class="workstep-content-items__text">Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту.</p>
+                    </div>
+                    <div class="workstep-content-items">
+                        <img src="./img/workstep2.png" alt="messsage" class="workstep-content-items__img">
+                        <h3 class="workstep-content-items__title workstep-content-items__title--two">Выезд к вам и уборка</h3>
+                        <p class="workstep-content-items__text">Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту.</p>
+                    </div>
+                    <div class="workstep-content-items">
+                        <img src="./img/workstep3.png" alt="messsage" class="workstep-content-items__img">
+                        <h3 class="workstep-content-items__title">Наслаждаетесь результатом</h3>
+                        <p class="workstep-content-items__text">Обратившись в нашу клининговую компанию вы получите клининговые услуги на высочайшем уровне, и индивидуальный подход к каждому клиенту.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
